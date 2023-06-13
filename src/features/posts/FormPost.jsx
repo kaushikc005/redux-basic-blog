@@ -50,7 +50,9 @@ const FormPost = () => {
             </select>
 
         <label htmlFor="postDesc">Description</label>
-        <input
+        <textarea
+        rows={6}
+        cols={40}
           type="text"
           name="postDesc"
           value={description}
